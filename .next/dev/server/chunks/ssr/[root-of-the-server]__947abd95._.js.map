@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 118, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/USER/Desktop/FRONTEND%20PAYEASE/lazorkit-payease-demo/app/layout.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { LazorkitProvider } from \"@lazorkit/wallet\";\r\n\r\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <html lang=\"en\">\r\n      <body>\r\n        <LazorkitProvider\r\n          rpcUrl=\"https://api.devnet.solana.com\"\r\n          paymasterUrl=\"https://demo-paymaster-url\" //  for gasless tx\r\n        >\r\n          {children}\r\n        </LazorkitProvider>\r\n      </body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;sBACC,cAAA,8OAAC,0LAAgB;gBACf,QAAO;gBACP,cAAa;0BAEZ;;;;;;;;;;;;;;;;AAKX"}}]
+}

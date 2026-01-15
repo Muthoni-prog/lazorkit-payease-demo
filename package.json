@@ -1,0 +1,26 @@
+{
+  "name": "lazorkit-payease-demo",
+  "version": "1.0.0",
+  "description": "PayEase Hackathon Demo - Solana payments with Lazorkit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": ["solana", "lazorkit", "web3", "payments", "passkey"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@lazorkit/wallet": "^2.0.1",
+    "@solana/web3.js": "^1.98.4",
+    "@coral-xyz/anchor": "^0.31.1",
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.8",
+    "typescript": "^6.7.3"
+  }
+}

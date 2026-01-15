@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 118, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/USER/Desktop/FRONTEND%20PAYEASE/lazorkit-payease-demo/app/providers.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { LazorkitProvider } from \"@lazorkit/wallet\";\r\nimport { useEffect, useState } from \"react\";\r\n\r\nexport default function Providers({ children }: { children: React.ReactNode }) {\r\n  const [mounted, setMounted] = useState(false);\r\n\r\n  useEffect(() => {\r\n    setMounted(true);\r\n  }, []);\r\n\r\n  if (!mounted) return null;\r\n\r\n  return (\r\n    <LazorkitProvider\r\n      rpcUrl=\"https://api.devnet.solana.com\"\r\n      paymasterUrl=\"https://demo-paymaster-url\"\r\n    >\r\n      {children}\r\n    </LazorkitProvider>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKe,SAAS,UAAU,EAAE,QAAQ,EAAiC;IAC3E,MAAM,CAAC,SAAS,WAAW,GAAG,IAAA,iNAAQ,EAAC;IAEvC,IAAA,kNAAS,EAAC;QACR,WAAW;IACb,GAAG,EAAE;IAEL,IAAI,CAAC,SAAS,OAAO;IAErB,qBACE,8OAAC,0LAAgB;QACf,QAAO;QACP,cAAa;kBAEZ;;;;;;AAGP"}}]
+}
