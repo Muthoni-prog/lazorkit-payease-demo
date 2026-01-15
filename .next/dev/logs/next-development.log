@@ -1,8 +1,0 @@
-[00:00:08.726] Server  LOG     ✓ Ready in 6.9s
-[00:00:16.247] Server  LOG     ○ Compiling / ...
-[00:00:25.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:31.277] Browser DEBUG   [DialogManager] Created dialog manager undefined
-[00:01:32.279] Browser DEBUG   [DialogManager] Destroyed dialog manager undefined
-[00:01:32.279] Browser ERROR   Failed to connect wallet: {}
-[00:01:32.280] Browser ERROR   Passkey login failed: {}
-[00:01:33.248] Browser DEBUG   [DialogManager] Closed dialog (animated) undefined
