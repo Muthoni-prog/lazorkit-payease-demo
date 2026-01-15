@@ -1,1 +1,1 @@
-import { LazorKitProvider } from "@lazorkit/wallet";
+import { LazorkitProvider } from "@lazorkit/wallet";
